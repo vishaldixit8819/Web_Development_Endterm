@@ -1,17 +1,82 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Game</title>
-  <link rel="stylesheet" href="./cardflip.css"></link>
-  <script src="app.js" charset="utf-8"></script>
+    <meta charset="UTF-8">
+
+    <title>Image Match</title>
+
+    <link rel="stylesheet" href="./cardflip.css">
 </head>
+
 <body>
+    <div class="heading">
+        <h1>Try Remaning... 6</h1>
+    </div>
+    <div class="app">
+        <section class="memory-game">
+            <div class="memory-card" data-framework="react">
+                <img class="front-face" src="./Images/card1.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
 
-  <h3>Score:<span id="result"></span></h3>
+            <div class="memory-card" data-framework="react">
+                <img class="front-face" src="./Images/card1.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
 
-  <div class="grid">
-  </div>
+            <div class="memory-card" data-framework="angular">
+                <img class="front-face" src="./Images/card3.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
 
+            <div class="memory-card" data-framework="angular">
+                <img class="front-face" src="./Images/card3.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="ember">
+                <img class="front-face" src="./Images/card4.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="ember">
+                <img class="front-face" src="./Images/card4.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="vue">
+                <img class="front-face" src="./Images/card5.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="vue">
+                <img class="front-face" src="./Images/card5.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="backbone">
+                <img class="front-face" src="./Images/card6.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="backbone">
+                <img class="front-face" src="./Images/card6.jpg" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="aurelia">
+                <img class="front-face" src="./chimp.png" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+
+            <div class="memory-card" data-framework="aurelia">
+                <img class="front-face" src="./chimp.png" alt="">
+                <img class="back-face" src="./Images/card2.jpg" alt="">
+            </div>
+        </section>
+    </div>
+    <script src="./app.js"></script>
 </body>
+
 </html>
