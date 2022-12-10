@@ -5,7 +5,7 @@ document.getElementById("lord").addEventListener("click",book);
 function book(e){
     e.preventDefault();
     if(e.target.id=="alice"){
-        read("./books/AliceInWonderland.txt","Alice In WonderLand");
+        read("./Books/AliceInWonderland.txt","Alice In WonderLand");
         document.getElementById(m);
         m.innerHTML=`alice:385 time(s) <br>
         very:144 time(s) <br>
@@ -20,7 +20,7 @@ function book(e){
         chile-life:1 time(s)`;
     }
     if(e.target.id=="hyde"){
-        read("./books/JekyllAndHyde.txt","Jekyll And Hyde");
+        read("./Books/JekyllAndHyde.txt","Jekyll And Hyde");
         document.getElementById(m);
         m.innerHTML=`Jekyll:344 time(s) <br>
         Hyde:284 time(s) <br>
@@ -35,7 +35,7 @@ function book(e){
         dangerous:1 time(s)`;
     }
     if(e.target.id=="lord"){
-        read("./books/LOTR.txt","Lord Of The Rings");
+        read("./Books/LOTR.txt","Lord Of The Rings");
         document.getElementById(m);
         m.innerHTML=`lord:458 time(s) <br>
         rings:149 time(s) <br>
