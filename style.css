@@ -14,46 +14,49 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./Images/!st_image.jpg);
+    background-image: url(./Images/back.png);
     border-radius: 20px;
 }
+
 main{
     padding: 50px 0px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
+aside{
+    width: 420px;
+    height: 1000px;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
 article{
     background-color: white;
     width: 820px;
     height: 800px;
     overflow: auto;
+}
 
+.bo{
+    padding: 20px;
+}
 
-}
-aside{
-    width: 420px;
-    height: 1000px;
-}
-section{
-    background-color: white;
-    margin-bottom: 30px;
-}
 .head{
     padding: 10px;
     background-color: rgba(220, 220, 220, 0.623);
 }
-.bo{
-    padding: 20px;
-}
+
+
 input[type="text"]{
     padding: 10px;
     font-size: 20px;
 }
-button{
-    padding: 10px;
-    font-size: 20px;
-}
+
 .books{
     height: 150px;
     font-size: 20px;
@@ -62,6 +65,13 @@ button{
     align-items: flex-start;
     flex-direction: column;
 }
+
+
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+
 article{
     font-size: 32px;
 }
