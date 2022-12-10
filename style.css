@@ -1,0 +1,88 @@
+body{
+    background-image: linear-gradient(to right,rgb(188, 188, 139),rgb(231, 196, 84));
+    padding: 50px 100px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+header{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/back.png);
+    border-radius: 20px;
+    /* background: no-repeat; */
+}
+
+aside{
+    width: 420px;
+    height: 1000px;
+}
+
+article{
+    background-color: white;
+    width: 820px;
+    height: 800px;
+    overflow: auto;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 30px;
+}
+.titlle{
+    padding: 10px;
+    background-color: rgba(220, 220, 220, 0.623);
+}
+.Bo{
+    padding: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Book{
+    height: 150px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.he{
+    padding: 20px;
+}
+
+
+.be{
+    padding: 50px;
+}
+
+article{
+    font-size: 32px;
+}
+
+#game{
+    font-size: 40px;
+    text-decoration: underline;
+}
