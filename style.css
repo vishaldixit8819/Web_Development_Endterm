@@ -1,19 +1,12 @@
 body{
-    background-image: linear-gradient(to right,rgb(188, 188, 139),rgb(231, 196, 84));
+    background-image: linear-gradient(to right,rgb(250, 250, 195),rgb(255, 196, 0));
     padding: 50px 100px;
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-main{
-    padding: 50px 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -21,46 +14,47 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./Images/back.png);
+    background-image: url(./Images/!st_image.jpg);
     border-radius: 20px;
-    /* background: no-repeat; */
 }
-
-aside{
-    width: 420px;
-    height: 1000px;
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
-
 article{
     background-color: white;
     width: 820px;
     height: 800px;
     overflow: auto;
-}
 
+
+}
+aside{
+    width: 420px;
+    height: 1000px;
+}
 section{
     background-color: white;
     margin-bottom: 30px;
 }
-.titlle{
+.head{
     padding: 10px;
     background-color: rgba(220, 220, 220, 0.623);
 }
-.Bo{
+.bo{
     padding: 20px;
 }
-
-button{
-    padding: 10px;
-    font-size: 20px;
-}
-
 input[type="text"]{
     padding: 10px;
     font-size: 20px;
 }
-
-.Book{
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+.books{
     height: 150px;
     font-size: 20px;
     display: flex;
@@ -68,20 +62,21 @@ input[type="text"]{
     align-items: flex-start;
     flex-direction: column;
 }
-
-.he{
-    padding: 20px;
-}
-
-
-.be{
-    padding: 50px;
-}
-
 article{
     font-size: 32px;
 }
 
+.b{
+    padding: 50px;
+    font-size: 20px;
+}
+.h{
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
 #game{
     font-size: 40px;
     text-decoration: underline;
